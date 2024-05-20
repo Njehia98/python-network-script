@@ -11,7 +11,7 @@ def send_email_notification(subject, message, body, sender_email, sender_passwor
         msg['Subject'] = subject
         msg['Body'] = body
         # Attach the email body
-        msg.attach(MIMEText(message, 'plain'))
+        msg.attach(MIMEText(message, ''))
 
         # Connect to the SMTP server
         with smtplib.SMTP(smtp_server, smtp_port) as server:
