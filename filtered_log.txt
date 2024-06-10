@@ -1,0 +1,9 @@
+774	12.894279	host.docker.internal	168.207.110.34.bc.googleusercontent.com	TCP	66	39811 → https(443) [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+781	13.094774	host.docker.internal	CHEMLAB5	TCP	54	50593 → ms-wbt-server(3389) [ACK] Seq=1 Ack=1213 Win=4099 Len=0
+783	13.157986	host.docker.internal	168.207.110.34.bc.googleusercontent.com	TCP	66	39812 → https(443) [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+784	13.201620	172.16.0.18	255.255.255.255	UDP	203	44292 → scp-config(10001) Len=161
+785	13.203618	fe80::618:d6ff:fef2:a9e0	ff02::1	UDP	223	43859 → scp-config(10001) Len=161
+787	13.266787	host.docker.internal	172.16.0.15	TCP	54	33250 → ms-wbt-server(3389) [ACK] Seq=1 Ack=1415 Win=4097 Len=0
+788	13.344478	host.docker.internal	172.16.0.15	UDP	54	59593 → ms-wbt-server(3389) Len=12
+796	13.501345	host.docker.internal	cess.chem-labs.com	TCP	54	50590 → ms-wbt-server(3389) [ACK] Seq=1 Ack=460 Win=4096 Len=0
+801	13.723369	172.16.0.15	host.docker.internal	UDP	60	ms-wbt-server(3389) → 59593 Len=16
