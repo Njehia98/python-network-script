@@ -1,0 +1,32 @@
+771	12.657661	resolver1.opendns.com	host.docker.internal	DNS	104	Standard query response 0x8f93 PTR 8.8.8.8.in-addr.arpa PTR dns.google
+772	12.757013	172.16.11.69	239.255.255.250	SSDP	217	M-SEARCH * HTTP/1.1 
+773	12.765882	172.16.4.52	239.255.255.250	SSDP	217	M-SEARCH * HTTP/1.1 
+774	12.894279	host.docker.internal	168.207.110.34.bc.googleusercontent.com	TCP	66	39811 → https(443) [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+775	13.047872	CHEMLAB5	host.docker.internal	TLSv1.2	155	Application Data
+776	13.061601	NYINGI.local	239.255.255.250	SSDP	212	M-SEARCH * HTTP/1.1 
+777	13.062354	NYINGI.local	mdns.mcast.net	MDNS	82	Standard query 0x0000 PTR _googlecast._tcp.local, "QM" question
+778	13.062354	NYINGI.local	ff02::fb	MDNS	102	Standard query 0x0000 PTR _googlecast._tcp.local, "QM" question
+779	13.063671	NYINGI.local	mdns.mcast.net	MDNS	82	Standard query 0x0000 PTR _googlecast._tcp.local, "QM" question
+780	13.063671	NYINGI.local	ff02::fb	MDNS	102	Standard query 0x0000 PTR _googlecast._tcp.local, "QM" question
+781	13.094774	host.docker.internal	CHEMLAB5	TCP	54	50593 → ms-wbt-server(3389) [ACK] Seq=1 Ack=1213 Win=4099 Len=0
+782	13.120525	chemlabs01.chemlabs.lan	Broadcast	ARP	60	Who has 172.16.4.36? Tell 172.16.0.15
+783	13.157986	host.docker.internal	168.207.110.34.bc.googleusercontent.com	TCP	66	39812 → https(443) [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+784	13.201620	172.16.0.18	255.255.255.255	UDP	203	44292 → scp-config(10001) Len=161
+785	13.203618	fe80::618:d6ff:fef2:a9e0	ff02::1	UDP	223	43859 → scp-config(10001) Len=161
+786	13.224912	172.16.0.15	host.docker.internal	TLSv1.2	155	Application Data
+787	13.266787	host.docker.internal	172.16.0.15	TCP	54	33250 → ms-wbt-server(3389) [ACK] Seq=1 Ack=1415 Win=4097 Len=0
+788	13.344478	host.docker.internal	172.16.0.15	UDP	54	59593 → ms-wbt-server(3389) Len=12
+789	13.416868	host.docker.internal	resolver1.opendns.com	DNS	132	Standard query 0x5ff5 PTR 6.6.f.5.d.f.e.f.f.f.f.b.1.1.e.4.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+790	13.417029	host.docker.internal	resolver1.opendns.com	DNS	132	Standard query 0x7fea PTR 7.b.8.2.3.6.1.5.9.7.d.e.4.5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa
+791	13.417184	host.docker.internal	resolver1.opendns.com	DNS	85	Standard query 0xec6f PTR 201.4.16.172.in-addr.arpa
+792	13.450766	cess.chem-labs.com	host.docker.internal	TLSv1.2	105	Application Data
+793	13.474189	resolver1.opendns.com	host.docker.internal	DNS	191	Standard query response 0x5ff5 No such name PTR 6.6.f.5.d.f.e.f.f.f.f.b.1.1.e.4.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa SOA localhost
+794	13.474189	resolver1.opendns.com	host.docker.internal	DNS	191	Standard query response 0x7fea No such name PTR 7.b.8.2.3.6.1.5.9.7.d.e.4.5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa SOA localhost
+795	13.474189	resolver1.opendns.com	host.docker.internal	DNS	144	Standard query response 0xec6f No such name PTR 201.4.16.172.in-addr.arpa SOA localhost
+796	13.501345	host.docker.internal	cess.chem-labs.com	TCP	54	50590 → ms-wbt-server(3389) [ACK] Seq=1 Ack=460 Win=4096 Len=0
+797	13.571522	172.16.4.34	239.255.255.250	SSDP	217	M-SEARCH * HTTP/1.1 
+798	13.588099	Zhejiang_a3:43:96	Broadcast	ARP	60	Who has 172.16.3.104? Tell 172.16.0.108
+799	13.588099	Zhejiang_a3:43:96	Broadcast	ARP	60	Who has 172.16.6.135? Tell 172.16.0.108
+800	13.626951	172.16.4.201	239.255.255.250	SSDP	217	M-SEARCH * HTTP/1.1 
+801	13.723369	172.16.0.15	host.docker.internal	UDP	60	ms-wbt-server(3389) → 59593 Len=16
+802	13.763955	172.16.11.69	239.255.255.250	SSDP	217	M-SEARCH * HTTP/1.1 

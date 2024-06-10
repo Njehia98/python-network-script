@@ -1,4 +1,4 @@
-import smtplib
+'''import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
@@ -29,10 +29,39 @@ if __name__ == "__main__":
     notification_message = "You have been hacked!!!"
     body= "This is a body"
     sender_email = "s.njehia@chem-labs.com"  
-    sender_password = "k7%45AenhS" 
+    sender_password = "" 
     recipient_email = "c.njoroge@chem-labs.com"  
     smtp_server = "smtp.mailsafi.com"  
     smtp_port = 587  
 
     # Send the email notification
-    send_email_notification(subject, notification_message,body, sender_email, sender_password, recipient_email, smtp_server, smtp_port)
+    send_email_notification(subject, notification_message,body, sender_email, sender_password, recipient_email, smtp_server, smtp_port)'''
+
+'''import os
+# Retrieving the value of the "PATH" environment variable
+path = os.environ["PATH"]
+print(path)
+
+# Setting a new environment variable
+os.environ["API_KEY"] = "YOUR_API_KEY"
+'''
+import socket
+import datetime
+log_filename = "Sample Packet Capture.txt"
+
+# Generate timestamp for the log file
+timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+log_filename = f"{timestamp}_{log_filename}"
+
+# Create or open the log file in append mode
+log_file = open(log_filename, "a")
+while True:
+    # Get the list of network connections
+    connections = socket.net_connections()
+
+    # Write the connections to the log file
+    log_file.write(f"Timestamp: {datetime.datetime.now()}\n")
+    for connection in connections:
+        log_file.write(f"{connection}\n")
+    log_file.write("\n")
+
